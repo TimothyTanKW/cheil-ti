@@ -1,0 +1,80 @@
+[
+   {
+      "id" : "1",
+      "propertyName" : "",
+      "address": "",
+      "floor": "",
+      "doorNumber": "",
+      "image": "7"
+   },
+   {
+      "albumName": "Blue",
+      "artistName": "Joni Mitchell",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-003-JoniMitchell-BLUE-HR.jpg?w=1000",
+      "rating": "3",
+      "albumInfo": "In 1971, Joni Mitchell represented the West Coast feminine ideal — celebrated by Robert Plant as “a girl out there with love in her eyes and flowers in her hair” on Led Zeppelin’s “Goin’ to California.”"
+   },
+   {
+      "albumName": "Abbey Road",
+      "artistName": "The Beatles",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-005-Beatles-ABBEY-ROAD.jpg?w=1000",
+      "rating": "5",
+      "albumInfo": "“It was a very happy record,” said producer George Martin, describing this album in The Beatles Anthology. “I guess it was happy because everybody thought it was going to be the last.”"
+   },
+   {
+      "albumName": "Blood on the Tracks",
+      "artistName": "Bob Dylan",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-009-Bob-Dylan-BLOOD-ON-THE-TRACKS.jpg?w=1000",
+      "rating": "9",
+      "albumInfo": "Bob Dylan once introduced this album’s opening song, “Tangled Up in Blue,” onstage as taking him 10 years to live and two years to write."
+   },
+   {
+      "albumName": "Purple Rain",
+      "artistName": "Prince and the Revolution",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-008-Prince-PURPLE-RAIN.jpg?w=1000",
+      "rating": "8",
+      "albumInfo": "“I think Purple Rain is the most avant-garde, ‘purple’ thing I’ve ever done,” Prince told Ebony in 1986. "
+   },
+   {
+      "albumName": "Pet Sounds",
+      "artistName": "The Beach Boys",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-002-Beach-Boys-PET-SOUNDS-update.jpg?w=1000",
+      "rating": "2",
+      "albumInfo": "“Who’s gonna hear this shit?” Beach Boys singer Mike Love asked the band’s resident genius, Brian Wilson, in 1966, as Wilson played him the new songs he was working on."
+   },
+   {
+      "albumName": "Nevermind",
+      "artistName": "Nirvana",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-006-Nirvana-NEVERMIND-HR.jpg?w=1000",
+      "rating": "6",
+      "albumInfo": "An overnight-success story of the 1990s, Nirvana’s second album and its totemic ﬁrst single, “Smells Like Teen Spirit,” shot up from the Northwest underground"
+   },
+   {
+      "albumName": "Songs in the Key of Life",
+      "artistName": "Stevie Wonder,",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-004-Stevie-Wonder-SONGS-IN-THE-KEY-OF-LIFE.jpg?w=1000",
+      "rating": "4",
+      "albumInfo": "Months before the recording sessions for Songs in the Key of Life ended, the musicians in Stevie Wonder’s band had T-shirts made up that proclaimed, “We’re almost finished.”"
+   },
+   {
+      "albumName": "Revolver",
+      "artistName": "The Beatles",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-011-BeatlesREVOLVER-updated.jpg?w=1000",
+      "rating": "11",
+      "albumInfo": "Revolver was the sound of the Beatles fully embracing the recording studio as a sonic canvas, free to pursue musical ideas and possibilities that would reshape rock forever. "
+   },
+   {
+      "albumName": "The Miseducation of Lauryn Hill",
+      "artistName": "Lauryn Hill",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-010-Lauryn-Hill-MISEDUCATION.jpg?w=1000",
+      "rating": "10",
+      "albumInfo": "“This is a very sexist industry,” Lauryn Hill told Essence magazine in 1998. “They’ll never throw the ‘genius’ title to a sister.” "
+   },
+   {
+      "albumName": "What’s Going On",
+      "artistName": "Marvin Gaye",
+      "albumImage": "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-001-Marvin-Gaye-WHATS-GOING-ON.jpg?w=1000",
+      "rating": "1",
+      "albumInfo": "Marvin Gaye’s masterpiece began as a reaction to police brutality. In May 1969, Renaldo “Obie” Benson, the Four Tops’ bass singer, watched TV coverage of hundreds of club-wielding cops breaking up the People’s Park, a protest hub in Berkeley."
+   }
+]

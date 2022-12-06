@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Technical Question 3</title>
+
+    <style>
+        *,
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        h1 {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #album-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            justify-items: center;
+            align-items: flex-start;
+            gap: 40px;
+            max-width: 1920px;
+            padding: 1em;
+            margin: 0 auto;
+            position: relative;
+            right: 0;
+            left: 0;
+        }
+
+        .createdAlbum {
+            max-width: 340px;
+        }
+
+        .nameAlbum {
+            font-size: 25px;
+            padding-top: 10px;
+        }
+
+        .rating {
+            padding-top: 5px;
+            padding-bottom: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1><span id="maxAl"></span> Music Albums</h1>
+
+    <div id="album-wrapper">
+
+    </div>
+
+    <script type="text/javascript">
+
+
+        const api_url = 'https://63631d3566f75177ea3d93eb.mockapi.io/api/product/albums';
+        async function getMusic() {
+            const response = await fetch(api_url);
+            const data = await response.json();
+            const { albumName, artistName, albumImage, rating, albumInfo } = data;
+
+            data.sort(function (a, b) {return b.rating- a.rating});  // sorting album
+            
+            let maxAl = data.length;
+            document.getElementById('maxAl').textContent = maxAl; // album no.
+
+            data.forEach((data) => {
+                // album creation
+                let wrapAl = document.getElementById('album-wrapper');
+                let createdAl = document.createElement('div');
+                let nameAl = document.createElement('div');
+                let imgAl = document.createElement('img');
+                let titleAl = document.createElement('div');
+                let ratingAl = document.createElement('div');
+                let artistAl = document.createElement('div');
+                let infoAl = document.createElement('div');
+
+
+                // album attributions
+                createdAl.setAttribute("class", "createdAlbum");
+                nameAl.setAttribute("class", "nameAlbum");
+                titleAl.setAttribute("class", "titleAlbum");
+                ratingAl.setAttribute("class", "rating");
+                infoAl.setAttribute("class", "infoAlbum");
+                artistAl.setAttribute("class", "artistAlbum");
+
+
+                // album Name
+                nameAl.appendChild(document.createTextNode(data.albumName));
+
+                // artist Name
+                artistAl.appendChild(document.createTextNode(data.artistName));
+
+                // album Image
+                imgAl.setAttribute("src", data.albumImage);
+
+
+                // rating
+                ratingAl.appendChild(document.createTextNode(data.rating));
+
+                // album Info
+                infoAl.appendChild(document.createTextNode(data.albumInfo));
+
+                // album wrap all
+                wrapAl.appendChild(createdAl);
+                createdAl.appendChild(imgAl);
+                createdAl.appendChild(nameAl);
+                createdAl.appendChild(artistAl);
+                createdAl.appendChild(titleAl);
+                createdAl.appendChild(ratingAl);
+                createdAl.appendChild(infoAl);
+
+            });
+
+
+            
+
+        }
+
+        getMusic();
+
+
+    </script>
+</body>
+
+</html>
