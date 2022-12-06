@@ -1,2 +1,2 @@
 # cheil-ti (JS + mockapi)
-https://timothytankw.github.io/cheil-ti/
+(https://timothytankw.github.io/cheil-ti/index)
